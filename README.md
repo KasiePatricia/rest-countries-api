@@ -1,4 +1,4 @@
-# Frontend Mentor - REST Countries API with color theme switcher solution with HTML, CSS, Bootstrap and JavaScript
+# Frontend Mentor - REST Countries API with color theme switcher solution with ReactJs
 
 This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
@@ -39,7 +39,7 @@ Users should be able to:
 
 ## My process
 
-I used mostly css grid for the layout of the pages with flexbox as support. After getting the country cards for each page, I copied the html code to the javascript to use it to populate the page based on the number of results. I then used a gif in an absolutely positioned div as a loading screen to keep my viewers a bit occupied as they wait for the data to be fetched from the API.
+Firstly, created a react app using create-react-app. I went further to create components. I implemented the UI frist
 
 For both the search results page and the single country page, I passed in key and value pair of information through their addresses and used that either in the fetch address or to filter the array of all countries.
 
@@ -47,19 +47,20 @@ I also saved a variable to local storage that keeps tabs on the preferred mode (
 
 ### Built with
 
+- React
+- JavaScript
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
 - Tailwind
-- JavaScript
-- React
 
 ### What I learned
 
-- This was my first time putting in a gif loading screen to accomodate for the awkward waiting phase for API fetching. It was fun.
-- I also broke away from my tendency to use Flexbox for everything and paid more attention to Grid this time around.
+- This was my first time putting in a loading screen to accomodate for the awkward waiting phase for API fetching. It was fun.
+- I learnt how to use props and state.
+- I was able to fetch data from an API
 - Also my first time implementing a search function in a website.
 
 ## Author
