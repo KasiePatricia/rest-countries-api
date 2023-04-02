@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshots
 
-![](img/Screenshot1.png)
-![](img/Screenshot2.png)
+![](src/screenshot/img/Screenshot1.png)
+![](src/screenshot/img/Screenshot2.png)
 
 ### Links
 
 - Solution URL: (https://www.github.com/KasiePatricia/rest-countries)
-- Live Site URL: (https://codegiyu.github.io/countries)
+- Live Site URL: (https://rest-countries-api-topaz-three.vercel.app/)
 
 ## My process
 
