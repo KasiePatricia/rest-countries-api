@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshots
 
-![](/src/screenshot/img/Screenshot1.png)
-![](/src/screenshot/img/Screenshot2.png)
+![](/src/screenshots/img/Screenshot1.png)
+![](/src/screenshots/img/Screenshot2.png)
 
 ### Links
 
@@ -72,4 +72,4 @@ I also saved a variable to local storage that keeps tabs on the preferred mode (
 
 ## Acknowledgments
 
-Thanks to [Ogochukwu](https://www.github.com/Ogochukwu) for her timely help at some points during the project.
+Thanks to [Ogochukwu](https://github.com/Ogochukwu-ugo) for her timely help at some points during the project.
