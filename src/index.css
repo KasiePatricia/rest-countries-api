@@ -40,12 +40,12 @@ body {
   font-size: 0.875rem;
 }
 
-#light body {
+#light {
   background: var(--clr-white);
   color: var(--clr-very-dark-blue-tx);
 }
 
-#dark body {
+#dark {
   background: var(--clr-white);
   color: var(--clr-very-light-gray);
 }
@@ -422,6 +422,7 @@ h1 {
 
   .search-input {
     width: 450px;
+    padding-left: 2rem;
   }
 
   .search-select {

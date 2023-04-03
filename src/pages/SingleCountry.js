@@ -8,7 +8,7 @@ const SingleCountry = ({}) => {
   const { name } = useParams();
 
   return (
-    <div className="single-page">
+    <main className="single-page">
       <section className="country-section container">
         <Link to="/">
           <button className="btn btn-back">
@@ -98,7 +98,7 @@ const SingleCountry = ({}) => {
             );
           })}
       </section>
-    </div>
+    </main>
   );
 };
 
