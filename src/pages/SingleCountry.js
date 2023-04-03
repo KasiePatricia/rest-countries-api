@@ -2,10 +2,17 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { useGlobalContext } from "../context";
 import { FaLongArrowAltLeft } from "react-icons/fa";
+import Loading from "../components/Loading";
 
 const SingleCountry = ({}) => {
-  const { countries } = useGlobalContext();
+  // const { countries } = useGlobalContext();
   const { name } = useParams();
+
+  const { loading, countries } = useGlobalContext();
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <main className="single-page">
