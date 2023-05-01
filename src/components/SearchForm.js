@@ -60,6 +60,18 @@ const SearchForm = () => {
               ...provided,
               color: theme === "dark" ? "hsl(0, 0%, 98%)" : "hsl(0, 0%, 52%)",
             }),
+            option: (provided, state) => ({
+              ...provided,
+              backgroundColor:
+                state.isFocused || state.isSelected
+                  ? theme === "dark"
+                    ? "hsl(209, 23%, 37%)"
+                    : "hsl(220, 13%, 93%)"
+                  : theme === "dark"
+                  ? "hsl(209, 23%, 22%)"
+                  : "hsl(0, 0%, 100%)",
+              color: theme === "dark" ? "hsl(0, 0%, 98%)" : "hsl(0, 0%, 52%)",
+            }),
           }}
           options={option}
           placeholder="Filter By Region"
