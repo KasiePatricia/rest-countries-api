@@ -3,7 +3,7 @@ import data from "./data.json";
 const allRegions = ["All", ...new Set(data.map((country) => country.region))];
 
 const AppContext = React.createContext();
-
+console.log(data);
 const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [countries, setCountries] = useState("");
